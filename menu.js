@@ -235,7 +235,7 @@ const filteredFood = foodArr.filter(obj => obj.tags.includes('fire'))
 //CODE HERE
 // console.log(foodArr.filter(obj, filterByProperty('rating', 4, 'above')))
 
-// Look, I know how to use callbacks, and the filter method. But I would've had an easier time, solving the da vinci code, than getting what was asked for in this question. How do we access from the filter method, the object getting passed in when the paramaters only take in prop, num, type? Down below I can access object properties with the dot notation just fine, however, when all we have is the callback FN in there, I can't access the properties, or at least don't know how. I've ran this in repl for like an hour and stared at documentation for just as long. That's all I've got.
+
 foodArr.filter(obj => obj.price > 3)
 foodArr.filter(obj => obj.rating < 4)
 foodArr.filter(obj => obj.popularity === 2)
